@@ -1,0 +1,15 @@
+{
+    "name": "meri/untitled",
+    "authors": [
+        {
+            "name": "meri12345",
+            "email": "38717612+meri12345@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
