@@ -18,10 +18,19 @@ class Database
     }
     public function applyMigration(){
         $this->createMigrationTable();
-        $this->getAppliedMigrations();
+        $getAppliedMigrations = $this->getAppliedMigrations();
 
         $files = scandir(Application::$ROOT_DIR."/migrations");
-        var_dump($files);
+        $toApplyMigrations = array_diff($files,$getAppliedMigrations);
+
+        foreach ($toApplyMigrations as $migration){
+            if($migration==='..'||$migration==='.'){
+                continue;
+            }
+            require_once Application::$ROOT_DIR.'/migrations/'.$migration;
+           $classname = pathinfo($migration,PATHINFO_FILENAME);
+
+        }
     }
 
     public function createMigrationTable(){
