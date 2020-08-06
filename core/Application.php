@@ -6,6 +6,7 @@ class Application
     public Router $router;
     public Request $request;
     public Response $response;
+    public Controller $controller;
     public static string $ROOT_DIR;
     public static Application $app;
 

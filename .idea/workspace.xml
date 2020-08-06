@@ -66,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled - Copy" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,7 +99,7 @@
       <workItem from="1596657779105" duration="266000" />
       <workItem from="1596658238881" duration="798000" />
       <workItem from="1596697318631" duration="1650000" />
-      <workItem from="1596699213558" duration="10996000" />
+      <workItem from="1596699213558" duration="24052000" />
     </task>
     <servers />
   </component>
@@ -127,10 +127,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1596658112398" />
-    <state x="462" y="87" key="NewPhpClassDialog" timestamp="1596708758377">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1596712067594">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1596708758377" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596712067594" />
+    <state x="462" y="87" key="NewPhpClassDialog" timestamp="1596726738754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1596726738754" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1596709965475">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -139,5 +143,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596641052017" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596734015860">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596734015860" />
   </component>
 </project>
