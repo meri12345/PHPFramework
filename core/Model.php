@@ -64,6 +64,10 @@ abstract class Model
         return $this->errors[$attribute] ?? false;
     }
 
+    public function getFirstError($attribute){
+        return $this->errors[$attribute][0] ?? false;
+    }
+
     public function errorMessage(){
         return[
             self::RULE_REQUIRED=>'This field is required',
